@@ -2,7 +2,6 @@ import React, { useState, useMemo } from 'react'
 import AuthScreen from './components/AuthScreen'
 import Navbar from './components/Navbar'
 import Dashboard from './components/Dashboard'
-import sweetsData from './data/sweets.json'
 import './App.css'
 
 function App() {
@@ -14,11 +13,9 @@ function App() {
   // Dashboard state for filtering
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('All')
-  
-  // Sweets data from JSON
-  const [sweets] = useState(sweetsData.sweets)
 
-  const categories = ['All', ...new Set(sweets.map((sweet) => sweet.category))]
+  // Categories for the dropdown
+  const categories = ['All', 'Traditional Sweets', 'Chocolate Sweets', 'Dry Fruit Sweets', 'Milk-Based Sweets'];
 
   const handleSignIn = (userData, adminStatus = true) => {
     setCurrentUser(userData)
@@ -44,9 +41,9 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar 
-        currentUser={currentUser} 
-        isAdmin={isAdmin} 
+      <Navbar
+        currentUser={currentUser}
+        isAdmin={isAdmin}
         onNavigate={handleNavigate}
         currentScreen={currentScreen}
         onLogout={handleLogout}
@@ -57,12 +54,12 @@ function App() {
         categories={categories}
       />
       {currentScreen === 'dashboard' && (
-        <Dashboard 
-          isAdmin={isAdmin} 
+        <Dashboard
+          isAdmin={isAdmin}
           onNavigate={handleNavigate}
           searchQuery={searchQuery}
           selectedCategory={selectedCategory}
-          sweets={sweets}
+          currentUser={currentUser}
         />
       )}
     </div>

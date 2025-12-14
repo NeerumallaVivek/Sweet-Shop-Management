@@ -43,7 +43,7 @@ export const Navbar = ({ currentUser, isAdmin, onNavigate, currentScreen, onLogo
           <div className="user-info">
             <span className="user-avatar">👤</span>
             <div className="user-details">
-              <p className="user-name">{currentUser?.username || 'Guest'}</p>
+              <p className="user-name">{currentUser?.name || currentUser?.username || 'Guest'}</p>
               <p className="user-role">{isAdmin ? 'Admin' : 'Customer'}</p>
             </div>
           </div>
