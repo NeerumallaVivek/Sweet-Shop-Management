@@ -43,24 +43,101 @@ A full-stack web application for managing a modern sweet shop, featuring **secur
 
 ---
 
+## 📸 Project Screenshots
+
+Below are real application screenshots showcasing authentication, user flows, and admin management features.
+
+### 🔐 Authentication Screens
+
+**Admin Sign In**
+![Admin Sign In](project-screens/Homescreen/admin-signin.png)
+
+**Admin Sign Up**
+![Admin Sign Up](project-screens/Homescreen/admin-signup.png)
+
+**User Sign In**
+![User Sign In](project-screens/Homescreen/user-signin.png)
+
+**User Sign Up**
+![User Sign Up](project-screens/Homescreen/user-signup.png)
+
+---
+
+### 🏠 Home Screen (Available Sweets)
+
+![Available Sweets View 1](project-screens/Homescreen/available-sweets-1.png)
+![Available Sweets View 2](project-screens/Homescreen/available-sweets-2.png)
+
+---
+
+### 🛒 User Dashboard & Purchase Flow
+
+![User Dashboard Screen 1](project-screens/Userdashboard/userscreen-1.png)
+![User Dashboard Screen 2](project-screens/Userdashboard/userscreen-2.png)
+
+**Purchase Flow**
+![On Purchase Click](project-screens/Userdashboard/onpurchaseclick-1.png)
+![Purchase Output](project-screens/Userdashboard/onpurchaseclick-2-output.png)
+
+---
+
+### 🧑‍💼 Admin Dashboard & Sweet Management
+
+![Admin Dashboard Screen 1](project-screens/Admindashboard/AdminScreen-1.png)
+![Admin Dashboard Screen 2](project-screens/Admindashboard/AdminScreen-2.png)
+
+**Sweet CRUD Operations**
+
+![Add New Sweet](ProjectScreens/Admindashboard/Addnewsweet.png)
+![Edit Sweet](ProjectScreens/Admindashboard/Editsweet.png)
+![Delete Sweet](ProjectScreens/Admindashboard/Deletesweet.png)
+![Restock Sweet](ProjectScreens/Admindashboard/Restocksweet.png)
+
+---
+
 ## 📂 Project Structure
 
 ```
 Sweet-Shop-Management-System
 │
-├── Frontend/               # React Frontend Application
-│   ├── src/                # Components, Hooks, Styles
-│   ├── public/             # Static assets
-│   └── package.json        # Frontend dependencies
+├── Frontend/                       # React Frontend Application
+│   ├── src/                        # Components, Hooks, Styles
+│   ├── public/                     # Static assets
+│   └── package.json                # Frontend dependencies
 │
-├── Sweetbase/              # Spring Boot Backend Application
-│   ├── src/                # Java source & resources
-│   ├── pom.xml             # Backend dependencies
-│   └── start.sh            # Startup scripts (if any)
+├── Sweetbase/                      # Spring Boot Backend Application
+│   ├── src/                        # Java source & resources
+│   ├── pom.xml                     # Backend dependencies
+│   └── start.sh                    # Startup scripts (if any)
 │
-├── .env                    # Local environment variables (Git ignored)
-├── .env.example            # Sample environment configuration
-└── README.md
+├── project-screens/                # Application UI Screenshots
+│   │
+│   ├── Homescreen/                 # Authentication & Landing Screens
+│   │   ├── user-signin.png
+│   │   ├── user-signup.png
+│   │   ├── admin-signin.png
+│   │   ├── admin-signup.png
+│   │   ├── available-sweets-1.png
+│   │   └── available-sweets-2.png
+│   │
+│   ├── Userdashboard/              # User Dashboard & Purchase Flow
+│   │   ├── userscreen-1.png
+│   │   ├── userscreen-2.png
+│   │   ├── onpurchaseclick-1.png
+│   │   └── onpurchaseclick-2-output.png
+│   │
+│   └── Admindashboard/             # Admin Management Screens
+│       ├── adminscreen-1.png
+│       ├── adminscreen-2.png
+│       ├── addnewsweet.png
+│       ├── editsweet.png
+│       ├── deletesweet.png
+│       └── restocksweet.png
+│
+├── .env                            # Local environment variables (Git ignored)
+├── .env.example                    # Sample environment configuration
+└── README.md                       # Project documentation
+
 ```
 
 ---
