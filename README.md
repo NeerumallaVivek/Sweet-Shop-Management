@@ -47,51 +47,59 @@ A full-stack web application for managing a modern sweet shop, featuring **secur
 
 Below are real application screenshots showcasing authentication, user flows, and admin management features.
 
-### 🔐 Authentication Screens
+### 🔐 Home Screen
 
 **Admin Sign In**
-![Admin Sign In](project-screens/Homescreen/admin-signin.png)
+![Admin Sign In](ProjectScreens/HomeScreen/Adminsignin.png)
 
 **Admin Sign Up**
-![Admin Sign Up](project-screens/Homescreen/admin-signup.png)
+![Admin Sign Up](ProjectScreens/HomeScreen/Adminsignup.png)
 
 **User Sign In**
-![User Sign In](project-screens/Homescreen/user-signin.png)
+![User Sign In](ProjectScreens/HomeScreen/UserSignin.png)
 
 **User Sign Up**
-![User Sign Up](project-screens/Homescreen/user-signup.png)
+![User Sign Up](ProjectScreens/HomeScreen/Usersignup.png)
 
 ---
 
-### 🏠 Home Screen (Available Sweets)
 
-![Available Sweets View 1](project-screens/Homescreen/available-sweets-1.png)
-![Available Sweets View 2](project-screens/Homescreen/available-sweets-2.png)
+**Available Sweets**
+![Available Sweets View 1](ProjectScreens/HomeScreen/Availablesweets-1.png)
+![Available Sweets View 2](ProjectScreens/HomeScreen/Availablesweets-2.png)
 
 ---
 
 ### 🛒 User Dashboard & Purchase Flow
+**User Screens**
+![User Dashboard Screen 1](ProjectScreens/UserDashboard/UserScreen-1.png)
+![User Dashboard Screen 2](ProjectScreens/UserDashboard/UserScreen-2.png)
+![User Dashboard Screen 3](ProjectScreens/UserDashboard/UserScreen-3.png)
 
-![User Dashboard Screen 1](project-screens/Userdashboard/userscreen-1.png)
-![User Dashboard Screen 2](project-screens/Userdashboard/userscreen-2.png)
+** User Clicked Purchase button of  Kalakand sweet **
+![On Purchase Click](ProjectScreens/UserDashboard/onPurchaseClick-1.png)
 
-**Purchase Flow**
-![On Purchase Click](project-screens/Userdashboard/onpurchaseclick-1.png)
-![Purchase Output](project-screens/Userdashboard/onpurchaseclick-2-output.png)
+** Stock Value of kalakand sweet is updated **
+![Purchase Output](ProjectScreens/UserDashboard/onPurchaseClick-2(output).png)
 
 ---
 
 ### 🧑‍💼 Admin Dashboard & Sweet Management
 
-![Admin Dashboard Screen 1](project-screens/Admindashboard/AdminScreen-1.png)
-![Admin Dashboard Screen 2](project-screens/Admindashboard/AdminScreen-2.png)
+**Admin Screens**
+![Admin Dashboard Screen 1](ProjectScreens/AdminDashboard/AdminScreen-1.png)
+![Admin Dashboard Screen 2](ProjectScreens/AdminDashboard/Adminscreen-2.png)
 
-**Sweet CRUD Operations**
+**Admin Sweet Operations**
 
-![Add New Sweet](ProjectScreens/Admindashboard/Addnewsweet.png)
-![Edit Sweet](ProjectScreens/Admindashboard/Editsweet.png)
-![Delete Sweet](ProjectScreens/Admindashboard/Deletesweet.png)
-![Restock Sweet](ProjectScreens/Admindashboard/Restocksweet.png)
+**Add New Sweet**
+![Add New Sweet](ProjectScreens/AdminDashboard/Addnewsweet.png)
+**Edit Sweet**
+![Edit Sweet](ProjectScreens/AdminDashboard/Editsweet.png)
+**Delete Sweet**
+![Delete Sweet](ProjectScreens/AdminDashboard/Deletesweet.png)
+**Restock Sweet**
+![Restock Sweet](ProjectScreens/AdminDashboard/Restocksweet.png)
 
 ---
 
